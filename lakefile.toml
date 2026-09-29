@@ -1,0 +1,12 @@
+name = "add_verify"
+defaultTargets = ["Add", "conformance"]
+
+[[lean_lib]]
+name = "Add"
+
+[[lean_lib]]
+name = "FuzzVectors"
+
+[[lean_exe]]
+name = "conformance"
+root = "Conformance"

@@ -1,0 +1,14 @@
+name = "pyextract"
+defaultTargets = ["PyExtract", "Demo", "Helper", "DivDemo"]
+
+[[lean_lib]]
+name = "PyExtract"
+
+[[lean_lib]]
+name = "Demo"
+
+[[lean_lib]]
+name = "Helper"
+
+[[lean_lib]]
+name = "DivDemo"
